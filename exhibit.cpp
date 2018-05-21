@@ -124,6 +124,7 @@ int main()
 	}
 	std::sort(distinct_list.begin(), distinct_list.end());
 	int counter = 0;
+	cout<<"DISTINCT_PLAY_COUNT"<<"	"<<"CLIENT_COUNT"<<endl;
 	for(int j = 0; j<distinct_list.size(); j++)
 	{
 		cout<<distinct_list[j][0]<<"	"<<distinct_list[j][1]<<endl;
